@@ -1,0 +1,1 @@
+export var Curworld = new Mongo.Collection('curworld');

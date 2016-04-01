@@ -1,0 +1,10 @@
+<div>
+	<ul class="list-unstyled">
+		<li *ngFor="#menber of curmenber">
+			<a class="btn btn-default btn-block"  [routerLink]="['/MenberDetails', {menberId: menber._id}]">
+				<img alt="140x140" src={{menber.iconsrc}} class="center-block"/>
+				<p>{{menber.name}}</p>
+			</a>
+		</li>
+	</ul>
+</div>

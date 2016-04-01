@@ -1,0 +1,1 @@
+export var Curmenber = new Mongo.Collection('curmenber');
